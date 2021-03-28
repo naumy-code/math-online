@@ -24,4 +24,7 @@
 ![输入图片说明](https://images.gitee.com/uploads/images/2021/0328/223405_b8668dd3_7347710.png "屏幕截图.png")
 ##### 前台用户测验
 ![输入图片说明](https://images.gitee.com/uploads/images/2021/0328/223441_46bca218_7347710.png "屏幕截图.png")
+##### 支付宝沙箱环境掉用
+![输入图片说明](https://images.gitee.com/uploads/images/2021/0328/223655_31d2240e_7347710.png "屏幕截图.png")
 #### GitHub地址
+
