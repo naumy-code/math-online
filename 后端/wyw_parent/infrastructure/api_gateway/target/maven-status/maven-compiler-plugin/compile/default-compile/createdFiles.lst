@@ -1,0 +1,5 @@
+com\wyw\gateway\ApiGatewayApplication.class
+com\wyw\gateway\config\CorsConfig.class
+com\wyw\gateway\filter\AuthGlobalFilter.class
+com\wyw\gateway\handler\ErrorHandlerConfig.class
+com\wyw\gateway\handler\JsonExceptionHandler.class

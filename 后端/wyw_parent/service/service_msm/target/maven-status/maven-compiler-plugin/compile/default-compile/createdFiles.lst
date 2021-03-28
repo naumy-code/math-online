@@ -1,0 +1,5 @@
+com\wyw\msmservice\utils\RandomUtil.class
+com\wyw\msmservice\controller\MsmController.class
+com\wyw\msmservice\MsmApplication.class
+com\wyw\msmservice\service\MsmService.class
+com\wyw\msmservice\service\impl\MsmServiceImpl.class

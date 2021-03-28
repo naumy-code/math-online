@@ -1,0 +1,71 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.yfhl</groupId>
+    <artifactId>service_exam</artifactId>
+    <packaging>jar</packaging>
+    <version>1.0</version>
+    <name>exam-api</name>
+
+    <parent>
+        <artifactId>service</artifactId>
+        <groupId>com.wyw</groupId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+
+    <properties>
+        <fastjson.version>1.2.56</fastjson.version>
+        <oss.version>3.7.0</oss.version>
+        <aliyun.sdk.version>4.1.1</aliyun.sdk.version>
+        <dozer.version>5.5.1</dozer.version>
+        <apache.commons.version>3.8</apache.commons.version>
+        <mysql.driver.version>8.0.17</mysql.driver.version>
+        <mybatis-plus.version>3.3.2</mybatis-plus.version>
+        <lombok.version>1.18.4</lombok.version>
+        <thymeleaf.version>3.0.11.RELEASE</thymeleaf.version>
+        <alicloud.version>2.1.1.RELEASE</alicloud.version>
+        <poi.version>3.9</poi.version>
+        <cloud-alibaba.version>0.2.2.RELEASE</cloud-alibaba.version>
+    </properties>
+
+
+    <dependencies>
+
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>${fastjson.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>net.sf.dozer</groupId>
+            <artifactId>dozer</artifactId>
+            <version>${dozer.version}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>commons-collections</groupId>
+                    <artifactId>commons-collections</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>org.slf4j</groupId>
+                    <artifactId>slf4j-api</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+
+
+    </dependencies>
+
+    <build>
+        <resources>
+            <resource>
+                <directory>src/main/java</directory>
+                <includes>
+                    <include>**/*.xml</include>
+                </includes>
+            </resource>
+        </resources>
+    </build>
+
+</project>

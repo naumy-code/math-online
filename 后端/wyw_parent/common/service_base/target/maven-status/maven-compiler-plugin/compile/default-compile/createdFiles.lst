@@ -1,0 +1,5 @@
+com\wyw\servicebase\RedisConfig.class
+com\wyw\servicebase\SwaggerConfig.class
+com\wyw\servicebase\exceptionhandler\GlobalExceptionHandler.class
+com\wyw\servicebase\exceptionhandler\wywException.class
+com\wyw\servicebase\handler\MyMetaObjectHandler.class

@@ -1,0 +1,10 @@
+com\wyw\staservice\client\UcenterClient.class
+com\wyw\staservice\utils\DateUtil.class
+com\wyw\staservice\StaApplication.class
+com\wyw\staservice\controller\StatisticsDailyController.class
+com\wyw\staservice\entity\StatisticsDaily.class
+com\wyw\staservice\mapper\StatisticsDailyMapper.class
+com\wyw\staservice\client\EduClient.class
+com\wyw\staservice\schedule\ScheduledTask.class
+com\wyw\staservice\service\impl\StatisticsDailyServiceImpl.class
+com\wyw\staservice\service\StatisticsDailyService.class
