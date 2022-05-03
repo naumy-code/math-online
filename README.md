@@ -1,7 +1,7 @@
 # MathOnline
 
 #### 介绍
-这是我的毕业设计的系统
+系统设计
 
 #### 软件架构
 开发工具：IntelliJ IDEA+MySQL8.0+git 开发环境：Windows、JDK1.8  
